@@ -10,3 +10,37 @@
 [2025-03-05T08:29:10.932425] Operation: File Rename | Details: Renamed IMG_1428.jpg to gdd_polo_design.jpg
 [2025-03-05T08:29:10.934674] Renamed: IMG_1428.jpg -> gdd_polo_design.jpg
 [2025-03-05T08:29:10.941498] Loaded 35 image files
+[2025-03-05T08:55:31.119429] Source file does not exist: /var/folders/q3/kscsq16j0zl7_thxqqvxm80m0000gn/T/junit3176516063314581566/non-existent.jpg
+[2025-03-05T08:55:31.149302] Target file already exists: /var/folders/q3/kscsq16j0zl7_thxqqvxm80m0000gn/T/junit4212751439892245541/existing-target.jpg
+[2025-03-05T08:55:31.153933] Operation: File Rename | Details: Renamed test-image.jpg to renamed-image.jpg
+[2025-03-05T08:55:53.328844] Controller Initialized
+[2025-03-05T08:55:53.349673] Could not find CSS file. Please create styles.css in resources directory.
+[2025-03-05T08:55:53.350115] Could not find icon.png
+[2025-03-05T08:55:53.659553] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T08:56:48.944895] Controller Initialized
+[2025-03-05T08:56:48.966391] Could not find CSS file. Please create styles.css in resources directory.
+[2025-03-05T08:56:48.966822] Could not find icon.png
+[2025-03-05T08:56:49.240898] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T08:57:11.171358] Controller Initialized
+[2025-03-05T08:57:11.193175] Found CSS at: styles.css
+[2025-03-05T08:57:11.193728] Could not find icon.png
+[2025-03-05T08:57:11.437845] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T08:57:46.521955] Controller Initialized
+[2025-03-05T08:57:46.543815] Found CSS at: styles.css
+[2025-03-05T08:57:46.544392] Could not find icon.png
+[2025-03-05T08:57:46.786346] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T08:58:16.643371] Loaded 15 image files
+[2025-03-05T08:58:16.644356] Selected directory: /Users/gabriel/Desktop/everything
+[2025-03-05T08:58:33.221199] Operation: File Rename | Details: Renamed Untitled.png to gab_jung.png
+[2025-03-05T08:58:33.222748] Renamed: Untitled.png -> gab_jung.png
+[2025-03-05T08:58:33.227036] Loaded 15 image files
+[2025-03-05T08:59:06.625291] Operation: File Rename | Details: Renamed Untitled 2.png to jo_sus_blick_grr.png
+[2025-03-05T08:59:06.627131] Renamed: Untitled 2.png -> jo_sus_blick_grr.png
+[2025-03-05T08:59:06.630595] Loaded 15 image files
+[2025-03-05T09:00:52.959819] Controller Initialized
+[2025-03-05T09:00:52.98197] Found CSS at: styles.css
+[2025-03-05T09:00:52.982446] Could not find icon.png
+[2025-03-05T09:00:53.301496] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T09:02:50.675793] Source file does not exist: /var/folders/q3/kscsq16j0zl7_thxqqvxm80m0000gn/T/junit18166332828388806856/non-existent.jpg
+[2025-03-05T09:02:50.697463] Target file already exists: /var/folders/q3/kscsq16j0zl7_thxqqvxm80m0000gn/T/junit14176508815941902621/existing-target.jpg
+[2025-03-05T09:02:50.702782] Operation: File Rename | Details: Renamed test-image.jpg to renamed-image.jpg

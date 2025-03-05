@@ -18,6 +18,7 @@ public class ImageRenamerApp extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 800, 600);
         stage.setTitle("Image File Renamer");
 
+
         // Try different approaches to load CSS
         URL cssResource = null;
 

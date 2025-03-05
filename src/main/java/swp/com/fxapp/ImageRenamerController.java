@@ -36,6 +36,7 @@ public class ImageRenamerController {
     @FXML
     private Label statusLabel;
 
+
     private File currentDirectory;
     private final ObservableList<String> imageFiles = FXCollections.observableArrayList();
     private final List<String> supportedExtensions = Arrays.asList(".jpg", ".jpeg", ".png", ".gif", ".bmp");
@@ -188,4 +189,5 @@ public class ImageRenamerController {
         alert.setContentText(content);
         alert.showAndWait();
     }
+
 }
