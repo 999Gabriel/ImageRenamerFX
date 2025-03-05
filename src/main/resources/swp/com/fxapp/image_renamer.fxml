@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="swp.com.fxapp.ImageRenamerController">
+    <top>
+        <VBox spacing="10" style="-fx-background-color: #2c3e50;">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <Label text="Image File Renamer" style="-fx-text-fill: white;">
+                <font>
+                    <Font name="System Bold" size="24"/>
+                </font>
+            </Label>
+            <HBox spacing="10">
+                <Button fx:id="selectFolderButton" text="Select Folder" onAction="#onSelectFolderClick"
+                        style="-fx-background-color: #3498db; -fx-text-fill: white;"/>
+                <Label fx:id="statusLabel" style="-fx-text-fill: white;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <left>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Image Files" styleClass="header-label"/>
+            <ListView fx:id="fileListView" prefWidth="250" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox alignment="CENTER" spacing="10">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <ImageView fx:id="previewImageView" fitWidth="300" fitHeight="300" preserveRatio="true"/>
+            <Label text="Preview" styleClass="header-label"/>
+        </VBox>
+    </center>
+
+    <right>
+        <VBox spacing="15" style="-fx-background-color: #ecf0f1;">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+            <Label text="Rename Options" styleClass="header-label">
+                <font>
+                    <Font name="System Bold" size="14"/>
+                </font>
+            </Label>
+
+            <Label text="Prefix:"/>
+            <TextField fx:id="prefixTextField" promptText="Enter prefix"/>
+
+            <Label text="New Name (without extension):"/>
+            <TextField fx:id="newNameTextField" promptText="Enter new name"/>
+
+            <CheckBox fx:id="addCounterCheckBox" text="Add counter if file exists"/>
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button fx:id="renameButton" text="Rename Selected File" onAction="#onRenameButtonClick"
+                        style="-fx-background-color: #2ecc71; -fx-text-fill: white;"/>
+            </HBox>
+        </VBox>
+    </right>
+
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" style="-fx-background-color: #34495e;">
+            <padding>
+                <Insets top="5" right="10" bottom="5" left="10"/>
+            </padding>
+            <Label text="© 2024 Image Renamer" style="-fx-text-fill: white;"/>
+        </HBox>
+    </bottom>
+</BorderPane>

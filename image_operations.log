@@ -1,0 +1,12 @@
+[2025-03-05T08:25:53.593796] Controller Initialized
+[2025-03-05T08:25:53.617733] Could not find CSS file. Please create styles.css in resources directory.
+[2025-03-05T08:25:53.618136] Could not find icon.png
+[2025-03-05T08:25:53.966805] Operation: Application Start | Details: Application launched successfully
+[2025-03-05T08:27:42.241905] Loaded 35 image files
+[2025-03-05T08:27:42.244163] Selected directory: /Users/gabriel/3BHWII:2024:25
+[2025-03-05T08:28:02.235263] Operation: File Rename | Details: Renamed IMG_50BA729C524D-1.jpeg to graph_image.jpeg
+[2025-03-05T08:28:02.236903] Renamed: IMG_50BA729C524D-1.jpeg -> graph_image.jpeg
+[2025-03-05T08:28:02.243213] Loaded 35 image files
+[2025-03-05T08:29:10.932425] Operation: File Rename | Details: Renamed IMG_1428.jpg to gdd_polo_design.jpg
+[2025-03-05T08:29:10.934674] Renamed: IMG_1428.jpg -> gdd_polo_design.jpg
+[2025-03-05T08:29:10.941498] Loaded 35 image files

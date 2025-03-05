@@ -1,0 +1,26 @@
+Mar 05, 2025 8:09:40 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:10:07 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:10:26 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:10:34 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:11:34 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:12:40 AM swp.com.fxapp.ImageRenamerController initialize
+INFO: Controller initialized
+Mar 05, 2025 8:12:40 AM swp.com.fxapp.ImageRenamerApp start
+WARNING: Could not find CSS file. Please create styles.css in resources directory.
+Mar 05, 2025 8:12:40 AM swp.com.fxapp.ImageRenamerApp start
+WARNING: Could not find icon.png
+Mar 05, 2025 8:12:40 AM swp.com.fxapp.ImageRenamerApp start
+INFO: Application started successfully
+Mar 05, 2025 8:13:26 AM swp.com.fxapp.ImageRenamerController loadImagesFromDirectory
+INFO: Loaded 101 image files
+Mar 05, 2025 8:13:26 AM swp.com.fxapp.ImageRenamerController onSelectFolderClick
+INFO: Selected directory: /Users/gabriel/Downloads
+Mar 05, 2025 8:13:42 AM swp.com.fxapp.ImageRenamerController onRenameButtonClick
+INFO: Renamed: Tshirt Preview.png -> rolex-sketch.png
+Mar 05, 2025 8:13:42 AM swp.com.fxapp.ImageRenamerController loadImagesFromDirectory
+INFO: Loaded 101 image files
